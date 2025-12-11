@@ -2,9 +2,6 @@ from .backend import Backend
 from typing import Dict, List
 
 class HumanBackend(Backend):
-    """
-    Handles input from a human player via the terminal.
-    """
     def get_discussion_text(self, game_context: Dict) -> str:
         print(f"\n[{self.name} - Discussion] What do you say? (Enter text):")
         human_input = input("> ")
