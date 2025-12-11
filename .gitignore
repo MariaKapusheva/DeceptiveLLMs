@@ -3,6 +3,8 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+experiments_data/
+venv/
 # C extensions
 *.so
 
