@@ -4,7 +4,14 @@ __pycache__/
 *$py.class
 
 experiments_data/
+experiments_data_dev/
+compiled_results/
+outputs/
+experiment_setups/
+data_analysis/
+results/
 venv/
+.vscode/
 # C extensions
 *.so
 
@@ -207,3 +214,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+experiments_data_dev/
